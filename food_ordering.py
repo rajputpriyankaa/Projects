@@ -114,7 +114,7 @@ def new_login():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sql987",
+        password="abc",
         database="shopping"
 
     )
@@ -153,7 +153,7 @@ def restaurants():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sql@#987",
+        password="abc",
         database="shopping"
 
     )
@@ -189,7 +189,7 @@ def access():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sql@#987",
+        password="abc",
         database="shopping"
 
     )
