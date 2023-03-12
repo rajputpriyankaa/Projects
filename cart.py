@@ -33,7 +33,7 @@ def cart():
     mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Sql@#987",
+            password="abc",
             database="shopping"
 
         )
@@ -94,7 +94,7 @@ def get_details():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sql@#987",
+        password="abc",
         database="shopping"
 
     )
@@ -343,7 +343,7 @@ def buy_now():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sql@#987",
+        password="abc",
         database="shopping"
 
     )
